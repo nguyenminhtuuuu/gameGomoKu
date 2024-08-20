@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gomoku</title>
+    <link rel ="stylesheet" href ="style.css">
+    <script src ="code.js"></script>
+</head>
+<body>
+    <div id="frame">
+
+        <h1>Gomoku</h1>
+        
+        <div id ="subDiv">
+            <button id ="play" onclick="start()">Play</button>
+            <button id ="playerF" >Player</button>
+        </div>
+
+        <!-- tao bang -->
+        <div id="result"></div>
+
+    </div>
+
+    <!-- Dialog thông báo kết thúc trò chơi -->
+    <div id="dialog" class="dialog">
+        <button id="continue" onclick = "start()">Restart</button>
+    </div> 
+
+</body>
+</html>
